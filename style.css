@@ -1,0 +1,54 @@
+body {
+  background-image: url(media/background_img.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.nav {
+  list-style: none;
+  position: relative;
+  /* left: 55px; */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 55px;
+  margin-top: 11px;
+  position: relative;
+  top: 40px;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.5em;
+  border-bottom:5px solid tomato ;
+
+}
+
+li a:hover {
+  /* background: linear-gradient(45deg, #f4dcdc, #9595c7); */
+  color: tomato;
+  font-size: 1.8em;
+  border-bottom:5px dashed white ;
+
+}
+.li-logo {
+  width: 75px;
+}
+
+.list2 {
+  position: relative;
+  /* left: 90px; */
+}
+
+.list3 {
+  position: relative;
+  /* left: -100px; */
+}
