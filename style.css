@@ -28,27 +28,87 @@ body {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 1.5em;
-  border-bottom:5px solid tomato ;
-
+  border-bottom: 2px solid tomato;
 }
 
 li a:hover {
   /* background: linear-gradient(45deg, #f4dcdc, #9595c7); */
   color: tomato;
   font-size: 1.8em;
-  border-bottom:5px dashed white ;
-
+  border-bottom: 5px dotted white;
 }
 .li-logo {
-  width: 75px;
+  width: 100px;
+}
+
+.list1 {
+  position: relative;
+  left: -90px;
 }
 
 .list2 {
   position: relative;
-  /* left: 90px; */
+  left: 320px;
 }
 
 .list3 {
   position: relative;
-  /* left: -100px; */
+  left: 150px;
+}
+.cont {
+  display: flex;
+}
+
+.lorem {
+  width: 50vw;
+  position: relative;
+  bottom: -259px;
+  left: 56px;
+  font-size: 1.5em;
+  color: white;
+}
+.content {
+  width: 44vw;
+}
+.content h2,
+p {
+  margin: 0;
+}
+.button {
+  border-radius: 25%;
+  margin: 24px;
+  width: 85px;
+  height: 30px;
+}
+.grid {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  bottom: -31px;
+  row-gap: 10px;
+  transform: scale(0.9);
+}
+.grid img {
+  width: 24vw;
+  height: 38vh;
+  border-radius: 14%;
+  box-shadow: 5px -2px 19px 6px #544d4d;
+}
+.div1:hover {
+  transform: translate(-18px, -12px);
+}
+.div2:hover {
+  transform: translate(18px, -8px);
+}
+.div3:hover {
+  transform: translate(-18px, 12px);
+}
+.div4:hover {
+  transform: translate(18px, 12px);
+}
+.button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
